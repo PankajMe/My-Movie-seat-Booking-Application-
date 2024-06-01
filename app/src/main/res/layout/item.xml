@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ItemName"
+        android:layout_width="415dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/ItemimageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ItemimageView"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="7dp"
+        android:contentDescription="@string/imagemovie"
+        app:layout_constraintBottom_toTopOf="@+id/ItemDetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ItemName"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/ItemDetails"
+        android:layout_width="408dp"
+        android:layout_height="76dp"
+        android:gravity="center"
+        android:text="@string/about_moive"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ItemimageView" />
+
+    <TextView
+        android:id="@+id/ItemLocation"
+        android:layout_width="211dp"
+        android:layout_height="112dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:text="@string/cost_10"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ItemDetails" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="196dp"
+        android:layout_height="115dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="153dp"
+        android:gravity="center"
+        android:text="@string/movie_ticket_set_left"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ItemLocation"
+        app:layout_constraintTop_toBottomOf="@+id/ItemDetails" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">My Movie Seat Booking</string>
+    <string name="register_page">Register_page</string>
+    <string name="submit">Submit</string>
+    <string name="password">Password</string>
+    <string name="email_id">Email Id</string>
+    <string name="profile">Profile</string>
+    <string name="order">Order</string>
+    <string name="history">History</string>
+    <string name="movie_ticket_set_left">movie ticket set left</string>
+    <string name="cost_10">Cost = 10</string>
+    <string name="about_moive">About Moive</string>
+    <string name="imagemovie">ImageMovie</string>
+    <string name="name">Name</string>
+    <string name="logout_button">Logout Button</string>
+    <string name="buy_seat">Buy Seat</string>
+    <string name="s16">s16</string>
+    <string name="s1">s1</string>
+    <string name="s2">s2</string>
+    <string name="s3">s3</string>
+    <string name="s4">s4</string>
+    <string name="s5">s5</string>
+    <string name="s6">s6</string>
+    <string name="s7">s7</string>
+    <string name="s8">s8</string>
+    <string name="s9">s9</string>
+    <string name="s10">s10</string>
+    <string name="s11">s11</string>
+    <string name="s12">s12</string>
+    <string name="s13">s13</string>
+    <string name="s14">s14</string>
+    <string name="s15">s15</string>
+    <string name="seat_count">Seat count</string>
+    <string name="movie_loaction">Movie Loaction</string>
+    <string name="movie_detail">Movie Detail</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="todo">TODO</string>
+    <string name="select_seat">Select seat</string>
+    <string name="phonepe">PhonePe</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="pay">Pay</string>
+</resources>

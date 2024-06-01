@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="LoginPasswordbutton" type="id" />
+    <item name="textView" type="id" />
+    <item name="LoginEmailAddress" type="id" />
+    <item name="LoginPassword" type="id" />
+    <item name="CreateAccountbutton" type="id" />
+    <item name="main" type="id" />
+    <item name="RegisterTextPassword" type="id" />
+    <item name="textView2" type="id" />
+    <item name="RegisterEmailAddress" type="id" />
+    <item name="Submitbutton" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="profile" type="id" />
+    <item name="order" type="id" />
+    <item name="history" type="id" />
+    <item name="ItemName" type="id" />
+    <item name="ItemimageView" type="id" />
+    <item name="imageView2" type="id" />
+    <item name="textView5" type="id" />
+    <item name="textView6" type="id" />
+    <item name="textView7" type="id" />
+    <item name="button" type="id" />
+    <item name="imageView" type="id" />
+    <item name="imageView3" type="id" />
+    <item name="textView9" type="id" />
+    <item name="buttonLogout" type="id" />
+</resources>

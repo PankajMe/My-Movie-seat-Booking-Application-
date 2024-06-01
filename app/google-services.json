@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "91802493653",
+    "project_id": "my-movie-seat-booking-c11e9",
+    "storage_bucket": "my-movie-seat-booking-c11e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91802493653:android:db67ff2d842f35d0be385c",
+        "android_client_info": {
+          "package_name": "com.example.mymovieseatbooking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_J0Evfs8koiBMVlDPj-_iFgvP0z-Rofg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
