@@ -69,19 +69,16 @@ public class MyAdpater extends RecyclerView.Adapter<MyAdpater.MyViewHolder> {
 
         @Override
         public void onClick(View view) {
-//            Log.d("ClickFromViewHolder", "Clicked");
+
             int position = this.getAdapterPosition();
             Item contact = list.get(position);
-//            String name = contact.getName();
-//            String phone = contact.getPhoneNumber();
-            Toast.makeText(context, "The position is " + String.valueOf(position) +
-                    " Name: " + name + ", Phone:" /*phone*/, Toast.LENGTH_SHORT).show();
 
-            Intent intent = new Intent(context, ProductView.class);
-//            intent.putExtra("Rname", name);
-//            intent.putExtra("Rphone", phone);
-            context.startActivity(intent);
-
+            Intent ProductView = new Intent(context, ProductView.class);
+            ProductView.putExtra("Rname", contact.getName());
+            ProductView.putExtra("Rdetail", contact.getDeatail());
+            ProductView.putExtra("Rlocation",contact.getLocation());
+            ProductView.putExtra("Rimage",contact.getImage());
+            context.startActivity(ProductView);
         }
     }
 }

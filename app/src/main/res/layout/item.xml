@@ -8,13 +8,14 @@
 
     <TextView
         android:id="@+id/ItemName"
-        android:layout_width="415dp"
-        android:layout_height="86dp"
-        android:layout_marginStart="3dp"
-        android:layout_marginEnd="3dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="17dp"
         android:gravity="center"
         android:text="@string/name"
-        android:textSize="34sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/ItemimageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,53 +23,65 @@
 
     <ImageView
         android:id="@+id/ItemimageView"
-        android:layout_width="0dp"
-        android:layout_height="300dp"
-        android:layout_marginBottom="7dp"
+        android:layout_width="381dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
         android:contentDescription="@string/imagemovie"
-        app:layout_constraintBottom_toTopOf="@+id/ItemDetails"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ItemName"
         app:srcCompat="@drawable/ic_launcher_background"
         tools:ignore="ImageContrastCheck" />
 
-    <TextView
-        android:id="@+id/ItemDetails"
-        android:layout_width="408dp"
-        android:layout_height="76dp"
-        android:gravity="center"
-        android:text="@string/about_moive"
-        android:textSize="24sp"
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="373dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ItemimageView" />
+        app:layout_constraintTop_toBottomOf="@+id/ItemimageView">
+
+        <TextView
+            android:id="@+id/ItemDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/about_moive"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="399dp" />
+
+    </ScrollView>
 
     <TextView
         android:id="@+id/ItemLocation"
-        android:layout_width="211dp"
-        android:layout_height="112dp"
-        android:layout_marginBottom="2dp"
+        android:layout_width="366dp"
+        android:layout_height="102dp"
+        android:layout_marginBottom="76dp"
         android:gravity="center"
-        android:text="@string/cost_10"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView4"
-        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        android:text="@string/movie_location"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ItemDetails" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="196dp"
-        android:layout_height="115dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="153dp"
+        android:layout_width="349dp"
+        android:layout_height="83dp"
         android:gravity="center"
         android:text="@string/movie_ticket_set_left"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/ItemLocation"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ItemLocation"
-        app:layout_constraintTop_toBottomOf="@+id/ItemDetails" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

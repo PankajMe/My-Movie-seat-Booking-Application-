@@ -35,7 +35,7 @@ public class IdCheckPage extends AppCompatActivity {
         if(mfirebaseUser!=null){
             //there is some user logged in
             String id = mfirebaseUser.toString();
-            Toast.makeText(getApplicationContext(),"id ==>"+id,Toast.LENGTH_LONG).show();
+//            Toast.makeText(getApplicationContext(),"id ==>"+id,Toast.LENGTH_LONG).show();
             startActivity(new Intent(IdCheckPage.this, HomePage.class));
         }else {
             // on one login

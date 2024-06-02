@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +16,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class ProductView extends AppCompatActivity {
 
+    TextView name,detail,location;
+    ImageView image;
     Button selectseat;
     @SuppressLint("MissingInflatedId")
     @Override
@@ -26,6 +30,22 @@ public class ProductView extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        name=findViewById(R.id.textView5);
+        detail=findViewById(R.id.textView6);
+        location=findViewById(R.id.textView7);
+        image=findViewById(R.id.imageView2);
+
+        Intent adpater = getIntent();
+        String movieName = adpater.getStringExtra("Rname");
+        String moviedetail = adpater.getStringExtra("Rdetail");
+        String movielocation = adpater.getStringExtra("Rlocation");
+
+        name.setText(movieName);
+        detail.setText(moviedetail);
+        location.setText(movielocation);
+        image.setImageResource(adpater.getIntExtra("Rimage",0));
+
 
         selectseat = findViewById(R.id.SelectSeat);
 

@@ -39,4 +39,5 @@
     <string name="phonepe">PhonePe</string>
     <string name="google_pay">Google Pay</string>
     <string name="pay">Pay</string>
+    <string name="movie_location">Movie Location</string>
 </resources>

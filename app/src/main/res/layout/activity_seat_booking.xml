@@ -17,7 +17,7 @@
         app:layout_constraintHorizontal_bias="0.811"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.555"
+        app:layout_constraintVertical_bias="0.65"
         app:srcCompat="@drawable/chairemtpy" />
 
     <Button
@@ -33,17 +33,17 @@
 
     <TextView
         android:id="@+id/display"
-        android:layout_width="404dp"
-        android:layout_height="262dp"
+        android:layout_width="391dp"
+        android:layout_height="162dp"
         android:gravity="center"
         android:text=""
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.346" />
 
     <ImageButton
         android:id="@+id/s1"
@@ -56,7 +56,7 @@
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.408" />
+        app:layout_constraintVertical_bias="0.545" />
 
     <ImageButton
         android:id="@+id/s2"
@@ -69,7 +69,7 @@
         app:layout_constraintHorizontal_bias="0.304"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.408" />
+        app:layout_constraintVertical_bias="0.545" />
 
     <ImageButton
         android:id="@+id/s3"
@@ -81,7 +81,7 @@
         app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.408"
+        app:layout_constraintVertical_bias="0.545"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -91,10 +91,10 @@
         android:contentDescription="@string/s4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintHorizontal_bias="0.811"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.408"
+        app:layout_constraintVertical_bias="0.545"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -108,7 +108,7 @@
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.555" />
+        app:layout_constraintVertical_bias="0.65" />
 
     <ImageButton
         android:id="@+id/s6"
@@ -121,7 +121,7 @@
         app:layout_constraintHorizontal_bias="0.304"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.555" />
+        app:layout_constraintVertical_bias="0.65" />
 
     <ImageButton
         android:id="@+id/s7"
@@ -134,7 +134,7 @@
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711" />
+        app:layout_constraintVertical_bias="0.75" />
 
     <ImageButton
         android:id="@+id/s8"
@@ -146,7 +146,7 @@
         app:layout_constraintHorizontal_bias="0.304"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711"
+        app:layout_constraintVertical_bias="0.75"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -159,7 +159,7 @@
         app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711"
+        app:layout_constraintVertical_bias="0.75"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -172,7 +172,7 @@
         app:layout_constraintHorizontal_bias="0.811"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711"
+        app:layout_constraintVertical_bias="0.75"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -237,6 +237,17 @@
         app:layout_constraintHorizontal_bias="0.557"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.555"
+        app:layout_constraintVertical_bias="0.65"
         app:srcCompat="@drawable/chairemtpy" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_height="177dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:background="@drawable/hole"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
