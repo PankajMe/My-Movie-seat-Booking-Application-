@@ -14,10 +14,10 @@
         android:contentDescription="@string/s16"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintHorizontal_bias="0.904"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintVertical_bias="0.53"
         app:srcCompat="@drawable/chairemtpy" />
 
     <Button
@@ -27,23 +27,24 @@
         android:text="@string/buy_seat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.901" />
 
     <TextView
         android:id="@+id/display"
-        android:layout_width="391dp"
-        android:layout_height="162dp"
+        android:layout_width="389dp"
+        android:layout_height="237dp"
         android:gravity="center"
         android:text=""
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.727"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.346" />
+        app:layout_constraintVertical_bias="0.032" />
 
     <ImageButton
         android:id="@+id/s1"
@@ -53,10 +54,10 @@
         android:src="@drawable/chairemtpy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintVertical_bias="0.411" />
 
     <ImageButton
         android:id="@+id/s2"
@@ -66,10 +67,10 @@
         android:src="@drawable/chairemtpy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintVertical_bias="0.411" />
 
     <ImageButton
         android:id="@+id/s3"
@@ -78,10 +79,10 @@
         android:contentDescription="@string/s3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintHorizontal_bias="0.653"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545"
+        app:layout_constraintVertical_bias="0.411"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -91,10 +92,10 @@
         android:contentDescription="@string/s4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintHorizontal_bias="0.904"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545"
+        app:layout_constraintVertical_bias="0.411"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -105,10 +106,10 @@
         android:src="@drawable/chairemtpy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65" />
+        app:layout_constraintVertical_bias="0.53" />
 
     <ImageButton
         android:id="@+id/s6"
@@ -118,10 +119,10 @@
         android:src="@drawable/chairemtpy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65" />
+        app:layout_constraintVertical_bias="0.53" />
 
     <ImageButton
         android:id="@+id/s7"
@@ -131,10 +132,10 @@
         android:src="@drawable/chairemtpy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75" />
+        app:layout_constraintVertical_bias="0.658" />
 
     <ImageButton
         android:id="@+id/s8"
@@ -143,10 +144,10 @@
         android:contentDescription="@string/s8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintVertical_bias="0.658"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -156,10 +157,10 @@
         android:contentDescription="@string/s9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintHorizontal_bias="0.653"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintVertical_bias="0.658"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -169,10 +170,10 @@
         android:contentDescription="@string/s10"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintHorizontal_bias="0.904"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintVertical_bias="0.658"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -182,10 +183,10 @@
         android:contentDescription="@string/s11"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.851"
+        app:layout_constraintVertical_bias="0.776"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -195,10 +196,10 @@
         android:contentDescription="@string/s12"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.851"
+        app:layout_constraintVertical_bias="0.776"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -208,10 +209,10 @@
         android:contentDescription="@string/s13"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintHorizontal_bias="0.653"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.851"
+        app:layout_constraintVertical_bias="0.776"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -221,10 +222,10 @@
         android:contentDescription="@string/s14"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintHorizontal_bias="0.907"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.851"
+        app:layout_constraintVertical_bias="0.776"
         app:srcCompat="@drawable/chairemtpy" />
 
     <ImageButton
@@ -234,20 +235,11 @@
         android:contentDescription="@string/s15"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintHorizontal_bias="0.653"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintVertical_bias="0.53"
         app:srcCompat="@drawable/chairemtpy" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_height="177dp"
-        android:layout_marginTop="10dp"
-        android:text=""
-        android:background="@drawable/hole"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,7 +19,7 @@ import java.util.List;
 public class HomePage extends AppCompatActivity {
 
     List<Item> items =new ArrayList<>();
-    Button profile,order,history;
+    Button profile,order,history,Database;
     RecyclerView recyclerView;
 
     @Override
@@ -34,6 +34,9 @@ public class HomePage extends AppCompatActivity {
         });
 
         recyclerView =findViewById(R.id.recyclerView);
+
+
+
 
         items.add(new Item("Mr. & Mrs. Mahi","Mahendra, a failed cricketer and Mahima, " + "a doctor are brought together by the virtue of an arranged marriage. Having the same nickname, Mahi, together they become Mr. and Mrs. Mahi. They soon discover their common love and passion for Cricket","Raj Mandir Cinema jaipur",12,R.drawable.a1));
         items.add(new Item("Mad Max Saga","As the world fell, young Furiosa is snatched from the Green Place of Many Mothers and falls into the hands of a great Biker Horde led by the Warlord Dementus","Kohinoor Cinema jaipur",120,R.drawable.a2));
@@ -67,8 +70,8 @@ public class HomePage extends AppCompatActivity {
         order.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(HomePage.this, Order.class);
-//                startActivity(intent);
+                Intent intent = new Intent(HomePage.this, Order.class);
+                startActivity(intent);
             }
         });
 

@@ -3,6 +3,7 @@ package com.example.mymovieseatbooking;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -30,6 +31,7 @@ public class ProductView extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        selectseat = findViewById(R.id.SelectSeat);
 
         name=findViewById(R.id.textView5);
         detail=findViewById(R.id.textView6);
@@ -47,11 +49,18 @@ public class ProductView extends AppCompatActivity {
         image.setImageResource(adpater.getIntExtra("Rimage",0));
 
 
-        selectseat = findViewById(R.id.SelectSeat);
+        selectseat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-        selectseat.setOnClickListener(v -> {
-            Intent intent = new Intent(ProductView.this, SeatBooking.class);
-            startActivity(intent);
+                Intent intent = new Intent(ProductView.this, SeatBooking.class);
+                intent.putExtra("dataName", movieName);
+                intent.putExtra("dataDetail", moviedetail);
+                intent.putExtra("dataLocation", movielocation);
+                intent.putExtra("dataImage", adpater.getIntExtra("Rimage",0));
+                startActivity(intent);
+
+            }
         });
     }
 }

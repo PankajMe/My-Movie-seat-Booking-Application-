@@ -15,6 +15,12 @@
         android:theme="@style/Theme.MyMovieSeatBooking"
         tools:targetApi="31">
         <activity
+            android:name=".database"
+            android:exported="false" />
+        <activity
+            android:name=".Order"
+            android:exported="false" />
+        <activity
             android:name=".Payment"
             android:exported="false" />
         <activity

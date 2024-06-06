@@ -33,6 +33,7 @@ public class SeatBooking extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        setContentView(R.layout.activity_seat_booking);
 
         buySeat = findViewById(R.id.BuySeat);
         b1 = findViewById(R.id.s1);
@@ -410,16 +411,22 @@ public class SeatBooking extends AppCompatActivity {
             }
         });
 
-
+        Intent intent = getIntent();
+        int  movieImage  = intent.getIntExtra("dataImage",0);
+        String name = intent.getStringExtra("dataName");
+        String detail = intent.getStringExtra("dataDetail");
+        String location = intent.getStringExtra("dataLocation");
 
         buySeat.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
 
-
                 Intent data = new Intent(SeatBooking.this, Payment.class);
-
+//                data.putExtra("dataImage",movieImage);
+                data.putExtra("dataName",name);
+                data.putExtra("dataDetail",detail);
+                data.putExtra("dataLocation",location);
                 data.putExtra("count",count);
                 startActivity(data);
 

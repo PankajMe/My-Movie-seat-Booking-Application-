@@ -16,7 +16,6 @@ import java.util.List;
 
 public class MyAdpater extends RecyclerView.Adapter<MyAdpater.MyViewHolder> {
 
-
     List<Item> list;
     Context context;
 
